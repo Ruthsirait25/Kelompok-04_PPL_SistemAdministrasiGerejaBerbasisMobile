@@ -1,0 +1,247 @@
+{
+  "__collections__": {
+    "acara": {
+      "acara": {
+        "votum": "BE No.  43:73-75",
+        "tingting": "BE No.  21:22-23",
+        "dosa": "BE No.  51:58-59",
+        "epistel": "Epistel:  25:63-89",
+        "minggu": "Minggu Acara 15 September",
+        "manopoti": "BE No.  43:31-33",
+        "jamita": "BE No.  21:22-23",
+        "patik": "BE No.  51:11-12",
+        "hohom": "BE No.  120 : 3-4",
+        "__collections__": {}
+      }
+    },
+    "baptis": {
+      "OK2bLbUJtlV9hWmmzdWv": {
+        "birthPlace": "medan",
+        "gender": "Perempuan",
+        "dad": "rut",
+        "baptisDate": "25 april",
+        "fullName": "ruth",
+        "mom": "rut",
+        "birthDate": "25 maret",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "approved": false,
+        "__collections__": {}
+      },
+      "TCL4dDPYcSrmShPHdwDv": {
+        "birthPlace": "medan",
+        "gender": "Perempuan",
+        "dad": "ruth",
+        "baptisDate": "25 maret",
+        "fullName": "ruth",
+        "mom": "ruth",
+        "birthDate": "25 mei ",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "approved": true,
+        "__collections__": {}
+      }
+    },
+    "jemaatBaru": {
+      "CdLZ2qQU5z1wSTlQADHk": {
+        "birthPlace": "",
+        "address": "",
+        "gender": "Laki-laki",
+        "phone": "",
+        "fullName": "",
+        "bloodType": "",
+        "birthDate": "",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "__collections__": {}
+      },
+      "FyWY9d1yQfCzUxiKXiSX": {
+        "birthPlace": "medan",
+        "address": "medan",
+        "gender": "Perempuan",
+        "phone": "081264086157",
+        "fullName": "ruth",
+        "bloodType": "O",
+        "birthDate": "25 maret 2004",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "approved": true,
+        "__collections__": {}
+      },
+      "Xg2URHoKLf4bliMfD8hT": {
+        "birthPlace": "lahir",
+        "address": "alamat",
+        "gender": "Laki-laki",
+        "phone": "0823423",
+        "fullName": "jemaat baru",
+        "originChurch": "status",
+        "bloodType": "goldar",
+        "birthDate": "tanggal",
+        "requestor": "k7LSkBjarrdiuS0vY8HyjELdywm1",
+        "__collections__": {}
+      },
+      "jVeXNKWpOsibs1YLuXRS": {
+        "birthPlace": "medan",
+        "address": "medan",
+        "gender": "Perempuan",
+        "phone": "081264086157",
+        "fullName": "irut",
+        "bloodType": "O",
+        "birthDate": "25 maret 2004",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "approved": true,
+        "__collections__": {}
+      }
+    },
+    "martupol": {
+      "7ya5SJMrSDdQPd5yLksg": {
+        "boyMom": "ibu",
+        "girlName": "perempuan",
+        "girlAddress": "alamt perempuan",
+        "boyDad": "ayaaah",
+        "girlMom": "ibu",
+        "girlChurch": "gerejaayah ",
+        "girlDad": "",
+        "boyName": "laki-laki",
+        "requestor": "k7LSkBjarrdiuS0vY8HyjELdywm1",
+        "boyAddress": "alamat",
+        "boyChurch": "gereja",
+        "__collections__": {}
+      }
+    },
+    "nikah": {
+      "9pO3xeY1eHdDNBRrLw85": {
+        "birthPlace": "lahiir",
+        "martumpol_place": "tempat",
+        "address": "alamat",
+        "phone": "0823423",
+        "fullName": "berkat nikah",
+        "bloodType": "goldar",
+        "birthDate": "tanggal",
+        "requestor": "k7LSkBjarrdiuS0vY8HyjELdywm1",
+        "martumpol_date": "martumpol ",
+        "__collections__": {}
+      },
+      "BNhpPbaB587aM0rP1M50": {
+        "birthPlace": "medan",
+        "address": "medan",
+        "gender": "Perempuan",
+        "phone": "081264086157",
+        "fullName": "ruth",
+        "bloodType": "O",
+        "birthDate": "25 maret 2004",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "__collections__": {}
+      },
+      "ouUT2izIBk7kmjIzxTI1": {
+        "birthPlace": "t",
+        "address": "alamat",
+        "gender": "Laki-laki",
+        "phone": "08234234",
+        "fullName": "nama",
+        "bloodType": "goldar",
+        "birthDate": "tl",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "__collections__": {}
+      }
+    },
+    "pindahHuria": {
+      "EJnhVAdL1G8uqFXfuzaT": {
+        "birthPlace": "tempat tanggal lahir",
+        "address": "asdfasdf",
+        "gender": "Perempuan",
+        "phone": "08347534",
+        "fullName": "nama",
+        "originChurch": "Palmarum",
+        "bloodType": "a",
+        "birthDate": "tanggal",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "approved": true,
+        "__collections__": {}
+      },
+      "VNxeKDgQXCXmJmQlPPRf": {
+        "birthPlace": "lahir",
+        "address": "asdf",
+        "gender": "Laki-laki",
+        "phone": "1234",
+        "fullName": "pindah huria",
+        "originChurch": "asdf",
+        "bloodType": "a",
+        "birthDate": "tanggal",
+        "requestor": "k7LSkBjarrdiuS0vY8HyjELdywm1",
+        "__collections__": {}
+      }
+    },
+    "sidi": {
+      "5jn5YLDd5s8cxxhG1BwT": {
+        "birthPlace": "medan",
+        "gender": "Perempuan",
+        "dad": "halo",
+        "baptisDate": "12 mei 2014",
+        "mom": "ibu",
+        "sidiDate": "25 april 2020",
+        "birthDate": "23 mei 2003",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "approved": true,
+        "fullName": "rut",
+        "__collections__": {}
+      },
+      "aAHtO2mYzOFiI0xgMqyR": {
+        "birthPlace": "Pekanbaru",
+        "gender": "Laki-laki",
+        "dad": "Heru Silalahi",
+        "baptisDate": "29 November 2001",
+        "fullName": "Mario Silalahi",
+        "mom": "Stefani Elizabeth",
+        "sidiDate": "1 Desember 2003",
+        "birthDate": "16 September 2000",
+        "requestor": "tNVWZ32ZiVdNBk2OExJjPJ2MUi43",
+        "approved": true,
+        "__collections__": {}
+      }
+    },
+    "users": {
+      "LQ2xpiIqc5dMJ9LVCOqPFzTrexw2": {
+        "fcm": "fGZpQtRcRf-J9qvkP6d-_-:APA91bF0rGA6aqMBw-BNOknmYPVoNH001q2e6gBehG1Aw8NNrpUoDc-z0MFB72sZsZdj6B2yrVqBG78yZ3gk63yRo-UTDE8ejaoNPzYL0043jVYy2fxlrPeOjWh2deX5466CNpciyNEx",
+        "__collections__": {}
+      },
+      "ZFLHk7Y9Q3dUEpusX1WS82REsWF2": {
+        "address": "sitoluama ",
+        "gender": "Laki-laki",
+        "wijk": "3",
+        "phone": "081264299264",
+        "username": "nita",
+        "fcm": "fx1hrRhkQKmCrjajPPq4gO:APA91bFFwFVC-3n_qVFw5Mtj-Sf4op7FhbTWh_XgqdE0HxuMI141O3JvnoEAIJOCzw-XfWEARqIp-Un6cgoLbVukzBMylJC_7SxtXOopoocVI_eg5Mmc60e8TiJKptlmADy1cNkvccwp",
+        "fullName": "nita p",
+        "__collections__": {}
+      },
+      "l8smMouAzvSQHY3IYGMJ4n3Vxb53": {
+        "address": "Lumbanjulu",
+        "gender": "Laki-laki",
+        "phone": "08121212",
+        "wijk": "wijk3",
+        "isAdmin": true,
+        "fullName": "Sup",
+        "username": "super.admin",
+        "fcm": "fGZpQtRcRf-J9qvkP6d-_-:APA91bF0rGA6aqMBw-BNOknmYPVoNH001q2e6gBehG1Aw8NNrpUoDc-z0MFB72sZsZdj6B2yrVqBG78yZ3gk63yRo-UTDE8ejaoNPzYL0043jVYy2fxlrPeOjWh2deX5466CNpciyNEx",
+        "__collections__": {}
+      },
+      "tNVWZ32ZiVdNBk2OExJjPJ2MUi43": {
+        "address": "Lumbanjulu",
+        "gender": "Perempuan",
+        "wijk": "wijk",
+        "phone": "081243568709",
+        "fullName": "Ruth Sirait",
+        "username": "ruthsirait",
+        "fcm": "dU1DzdVlSAm3NRV4kHdB0-:APA91bEBv9qmtWfxFPp8uvAcmERsrsT3Jhn5cUjFGkAThuWbL7FjY8BvMIhT4Idy5aD45DVDmBJe5lNqx15HdXGNwVDXr4-yuqRV50du39me7xbHXX0xA7RICbYeWBRGSICjzkiY5kUL",
+        "__collections__": {}
+      }
+    },
+    "warta": {
+      "warta": {
+        "ii": "Pelean II/Namarboho : Rp.500.000,-",
+        "topik": "Topik Minggu : Trinitatis",
+        "ia": "Pelean IA : Rp.500.000,-",
+        "ib": "Pelean IB : Rp.500.000,-",
+        "ibadah": "Pelean ibadah Minggu, 28 Mei 2023",
+        "__collections__": {}
+      }
+    }
+  }
+}
