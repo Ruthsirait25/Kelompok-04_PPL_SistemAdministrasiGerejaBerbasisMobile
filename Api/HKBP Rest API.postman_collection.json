@@ -1,0 +1,649 @@
+{
+	"info": {
+		"_postman_id": "8b6115ff-1de4-490f-ad0d-87b6cbfe3522",
+		"name": "HKBP Rest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12506733"
+	},
+	"item": [
+		{
+			"name": "Baptis",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/baptis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"baptis"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"birthDate\": {\n            \"stringValue\": \"1 Sep 1999\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"6Vl2vewDBxULyiwSwQktgPni94Q2\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"solo\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"nivsheaa\"\n        },\n        \"dad\": {\n            \"stringValue\": \"Abigail Hasibuan\"\n        },\n        \"mom\": {\n            \"stringValue\": \"ppop\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Perempuan\"\n        },\n        \"phone\": {\n            \"stringValue\": \"081262938723\"\n        },\n        \"baptisDate\": {\n            \"stringValue\": \"1 Jan 1999\"\n        },\n        \"nik\": {\n            \"stringValue\": \"29387423\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/baptis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"baptis"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"birthDate\": {\n            \"stringValue\": \"1 Jan 1999\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"6Vl2vewDBxULyiwSwQktgPni94Q2\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"solo\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"nivsheaa\"\n        },\n        \"dad\": {\n            \"stringValue\": \"rrru\"\n        },\n        \"mom\": {\n            \"stringValue\": \"ppop\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Perempuan\"\n        },\n        \"phone\": {\n            \"stringValue\": \"081262938723\"\n        },\n        \"baptisDate\": {\n            \"stringValue\": \"1 Jan 1999\"\n        },\n        \"nik\": {\n            \"stringValue\": \"29387423\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:nameFromListBaptis",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":nameFromListBaptis"
+							],
+							"variable": [
+								{
+									"key": "nameFromListBaptis",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/baptis/0QGAufIAd8bg9ydoawW9"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Acara Info",
+			"item": [
+				{
+					"name": "Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/acara/acara",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"acara",
+								"acara"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"hohom\": {\n            \"stringValue\": \"BE No.  502\"\n        },\n        \"dosa\": {\n            \"stringValue\": \"BE No.  51:58-59\"\n        },\n        \"jamita\": {\n            \"stringValue\": \"BE No.  21:22-23\"\n        },\n        \"manopoti\": {\n            \"stringValue\": \"BE No.  43:31-33\"\n        },\n        \"epistel\": {\n            \"stringValue\": \"Epistel:  25:63-89\"\n        },\n        \"tingting\": {\n            \"stringValue\": \"BE No.  21:22-23\"\n        },\n        \"patik\": {\n            \"stringValue\": \"BE No.  51:11-12\"\n        },\n        \"minggu\": {\n            \"stringValue\": \"Minggu 8 Januari 2023\"\n        },\n        \"votum\": {\n            \"stringValue\": \"BE No.  43:73-75\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:nameAcara",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":nameAcara"
+							],
+							"variable": [
+								{
+									"key": "nameAcara",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/acara/acara"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Jemaat Baru",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/jemaatBaru",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"jemaatBaru"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"fullName\": {\n            \"stringValue\": \"Andreas Arta\"\n        },\n        \"address\": {\n            \"stringValue\": \"Jl.Soekarno\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"VTYWM7a0PfQUaldbLuoZVaDLBA63\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Laki-laki\"\n        },\n        \"phone\": {\n            \"stringValue\": \"082375195697\"\n        },\n        \"bloodType\": {\n            \"stringValue\": \"O\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"Bogor\"\n        },\n        \"originChurch\": {\n            \"stringValue\": \"Mahasiswa\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"13321033\"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"1 Jan 1908\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:name",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/jemaatBaru/Dq2YJZo75I7qBbyfYSm2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"fullName\": {\n            \"stringValue\": \"Andreas Arta\"\n        },\n        \"address\": {\n            \"stringValue\": \"Jl.Soekarno\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"VTYWM7a0PfQUaldbLuoZVaDLBA63\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Laki-laki\"\n        },\n        \"phone\": {\n            \"stringValue\": \"082375195697\"\n        },\n        \"bloodType\": {\n            \"stringValue\": \"O\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"Bogor\"\n        },\n        \"originChurch\": {\n            \"stringValue\": \"Mahasiswa\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"13321033\"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"1 Jan 1908\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/jemaatBaru",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"jemaatBaru"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Martupol",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/martupol",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"martupol"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"girlChurch\": {\n            \"stringValue\": \"HKBP \"\n        },\n        \"requestor\": {\n            \"stringValue\": \"A0WQxR7SR6azrydifBDrv2L9rfR2\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"11419011\"\n        },\n        \"boyDad\": {\n            \"stringValue\": \"Orang Damanik\"\n        },\n        \"boyAddress\": {\n            \"stringValue\": \"Jalan jalan\"\n        },\n        \"girlName\": {\n            \"stringValue\": \"Tesalonika Rostanti Mutiara Pangaribuan\"\n        },\n        \"girlNIK\": {\n            \"stringValue\": \"11421053\"\n        },\n        \"boyPhone\": {\n            \"stringValue\": \"085262607679\"\n        },\n        \"boyChurch\": {\n            \"stringValue\": \"HKBP sitol\"\n        },\n        \"girlDad\": {\n            \"stringValue\": \"Orang Pangaribuan\"\n        },\n        \"girlAddress\": {\n            \"stringValue\": \"Jalan \"\n        },\n        \"girlPhone\": {\n            \"stringValue\": \"0488154\"\n        },\n        \"boyMom\": {\n            \"stringValue\": \"Orang Pjt\"\n        },\n        \"girlMom\": {\n            \"stringValue\": \"Orang Hutasoit\"\n        },\n        \"boyName\": {\n            \"stringValue\": \"Edwin Immanuel Damanix\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:name",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/martupol/4wzELXsq4stwzGI2wSrc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"girlChurch\": {\n            \"stringValue\": \"HKBP \"\n        },\n        \"requestor\": {\n            \"stringValue\": \"A0WQxR7SR6azrydifBDrv2L9rfR2\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"11419011\"\n        },\n        \"boyDad\": {\n            \"stringValue\": \"Orang Damanik\"\n        },\n        \"boyAddress\": {\n            \"stringValue\": \"Jalan jalan\"\n        },\n        \"girlName\": {\n            \"stringValue\": \"Tesalonika Rostanti Mutiara Pangaribuan\"\n        },\n        \"girlNIK\": {\n            \"stringValue\": \"11421053\"\n        },\n        \"boyPhone\": {\n            \"stringValue\": \"085262607679\"\n        },\n        \"boyChurch\": {\n            \"stringValue\": \"HKBP sitol\"\n        },\n        \"girlDad\": {\n            \"stringValue\": \"Orang Pangaribuan\"\n        },\n        \"girlAddress\": {\n            \"stringValue\": \"Jalan \"\n        },\n        \"girlPhone\": {\n            \"stringValue\": \"0488154\"\n        },\n        \"boyMom\": {\n            \"stringValue\": \"Orang Pjt\"\n        },\n        \"girlMom\": {\n            \"stringValue\": \"Orang Hutasoit\"\n        },\n        \"boyName\": {\n            \"stringValue\": \"Edwin Immanuel Damanix\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/martupol",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"martupol"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Nikah",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/nikah",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"nikah"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"requestor\": {\n            \"stringValue\": \"lX4w46IhtaUCMKH4fE1TxLPGKNs1\"\n        },\n        \"phone\": {\n            \"stringValue\": \"3977902\"\n        },\n        \"bloodType\": {\n            \"stringValue\": \"kepo\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"Yohanna \"\n        },\n        \"martumpol_date\": {\n            \"stringValue\": \"21 Juni 2007\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"128855\"\n        },\n        \"address\": {\n            \"stringValue\": \"Tarutung \"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"21 Juni 1996\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"Tarutung \"\n        },\n        \"martumpol_place\": {\n            \"stringValue\": \"dimana ajah wee\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:name",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/nikah/DrEZmeOczxKiMCMoDgDq"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"requestor\": {\n            \"stringValue\": \"lX4w46IhtaUCMKH4fE1TxLPGKNs1\"\n        },\n        \"phone\": {\n            \"stringValue\": \"3977902\"\n        },\n        \"bloodType\": {\n            \"stringValue\": \"kepo\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"Yohanna \"\n        },\n        \"martumpol_date\": {\n            \"stringValue\": \"21 Juni 2007\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"128855\"\n        },\n        \"address\": {\n            \"stringValue\": \"Tarutung \"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"21 Juni 1996\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"Tarutung \"\n        },\n        \"martumpol_place\": {\n            \"stringValue\": \"dimana ajah wee\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/nikah",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"nikah"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pindah Huria",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/pindahHuria",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"pindahHuria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"address\": {\n            \"stringValue\": \"laguboti\"\n        },\n        \"originChurch\": {\n            \"stringValue\": \"judika\"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"1 Jan 1900\"\n        },\n        \"phone\": {\n            \"stringValue\": \"12221004\"\n        },\n        \"bloodType\": {\n            \"stringValue\": \"a\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"bKu7lkFHpSYxoGQgsAohYYCQIst2\"\n        },\n        \"nik\": {\n            \"stringValue\": \"12221004\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Laki-laki\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"estomihi\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"rumahmuu\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:name",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/pindahHuria/4iShJIjJ1yJzhs2dHZ9J"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"address\": {\n            \"stringValue\": \"laguboti\"\n        },\n        \"originChurch\": {\n            \"stringValue\": \"judika\"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"1 Jan 1900\"\n        },\n        \"phone\": {\n            \"stringValue\": \"12221004\"\n        },\n        \"bloodType\": {\n            \"stringValue\": \"a\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"bKu7lkFHpSYxoGQgsAohYYCQIst2\"\n        },\n        \"nik\": {\n            \"stringValue\": \"12221004\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Laki-laki\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"estomihi\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"rumahmuu\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/pindahHuria",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"pindahHuria"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sidi",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/sidi",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"sidi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"baptisDate\": {\n            \"stringValue\": \"21 Juni 2005\"\n        },\n        \"mom\": {\n            \"stringValue\": \"Biv. M. Hutasoit \"\n        },\n        \"phone\": {\n            \"stringValue\": \"082210171609\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"Balimbingan\"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"27 Apr 2005\"\n        },\n        \"dad\": {\n            \"stringValue\": \"T. Pangaribuan\"\n        },\n        \"sidiDate\": {\n            \"stringValue\": \"21 Juni 2022\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"Theopany Pangaribuan Hariharan\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Perempuan\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"0000000000000000\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"MO9YXRmyyjb0IfTzp06JAaBkiVC2\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:name",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/sidi/RIKbnSC2R2ZoNvwWDZvV"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"baptisDate\": {\n            \"stringValue\": \"21 Juni 2005\"\n        },\n        \"mom\": {\n            \"stringValue\": \"Biv. M. Hutasoit \"\n        },\n        \"phone\": {\n            \"stringValue\": \"082210171609\"\n        },\n        \"birthPlace\": {\n            \"stringValue\": \"Balimbingan\"\n        },\n        \"birthDate\": {\n            \"stringValue\": \"27 Apr 2005\"\n        },\n        \"dad\": {\n            \"stringValue\": \"T. Pangaribuan\"\n        },\n        \"sidiDate\": {\n            \"stringValue\": \"21 Juni 2022\"\n        },\n        \"fullName\": {\n            \"stringValue\": \"Theopany Pangaribuan Hariharan\"\n        },\n        \"gender\": {\n            \"stringValue\": \"Perempuan\"\n        },\n        \"approved\": {\n            \"booleanValue\": true\n        },\n        \"nik\": {\n            \"stringValue\": \"0000000000000000\"\n        },\n        \"requestor\": {\n            \"stringValue\": \"MO9YXRmyyjb0IfTzp06JAaBkiVC2\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/sidi",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"sidi"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Warta",
+			"item": [
+				{
+					"name": "Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/warta/warta",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"warta",
+								"warta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Copy",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fields\": {\n        \"ii\": {\n            \"stringValue\": \"Pelean II/Namarboho : Rp. 100.000.000\"\n        },\n        \"ib\": {\n            \"stringValue\": \"Pelean IB : Rp. 5.000.000\"\n        },\n        \"ibadah\": {\n            \"stringValue\": \"Pelean ibadah\"\n        },\n        \"ia\": {\n            \"stringValue\": \"Pelean IA : Rp. 13.000.000\"\n        },\n        \"topik\": {\n            \"stringValue\": \"Topik Minggu : Letari\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:name",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "projects/hkbp-palmarum-d1f09/databases/(default)/documents/warta/warta"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "List Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/users",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://firestore.googleapis.com/v1/projects/hkbp-palmarum-d1f09/databases/(default)/documents",
+			"type": "string"
+		},
+		{
+			"key": "host",
+			"value": "https://firestore.googleapis.com/v1",
+			"type": "string"
+		}
+	]
+}
