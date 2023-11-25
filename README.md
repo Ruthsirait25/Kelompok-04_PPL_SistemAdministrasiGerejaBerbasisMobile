@@ -1,1 +1,0 @@
-# Sistem-Administrasi-Gereja-Berbasis-Mobile
