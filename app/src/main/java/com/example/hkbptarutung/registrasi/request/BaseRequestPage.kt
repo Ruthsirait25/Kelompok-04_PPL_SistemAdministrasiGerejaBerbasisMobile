@@ -20,7 +20,7 @@ import com.example.hkbptarutung.registrasi.RegistrasiPageInterface
 import com.example.hkbptarutung.registrasi.RegistrasiPagePresenter
 import com.example.hkbptarutung.utils.FirebaseUtils
 import com.example.hkbptarutung.utils.PreferenceUtils
-import com.example.hkbptarutung.utils.sendSimpleNotif
+//import com.example.hkbptarutung.utils.sendSimpleNotif
 import com.example.hkbptarutung.utils.sessionExpired
 import com.example.hkbptarutung.utils.showAlert
 import com.example.hkbptarutung.utils.showToast
@@ -91,7 +91,7 @@ abstract class BaseRequestPage : AppCompatActivity(), RegistrasiPageInterface {
 
     override fun onSuccessRegister() {
         val msg = "Anda baru saja mendapatkan pengajuan ${titleString()}"
-        sendSimpleNotif("/topics/admin", msg)
+       // sendSimpleNotif("/topics/admin", msg)
         AlertDialog.Builder(this).apply {
             setTitle(getString(R.string.registrasiKegiatan))
             setMessage("Registrasi kegiatan sudah ditambahkan, silahkan tunggu")
@@ -106,7 +106,7 @@ abstract class BaseRequestPage : AppCompatActivity(), RegistrasiPageInterface {
             .addOnSuccessListener {
                 val action = if (approved) "setujui" else "tolak"
                 val msg = "${titleString()} anda di$action"
-                sendSimpleNotif("/topics/$uidRequestor", msg)
+                //sendSimpleNotif("/topics/$uidRequestor", msg)
             }
     }
 
