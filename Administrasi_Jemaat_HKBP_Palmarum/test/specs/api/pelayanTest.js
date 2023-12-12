@@ -10,11 +10,11 @@ describe('API Test', () => {
 
   it('should return status code 200', async function () {
     try {
-      const response = await axios.get('http://127.0.0.1:8000/api/pendidikan');
+      const response = await axios.get('http://127.0.0.1:8000/api/pelayan');
 
       assert.strictEqual(response.status, 200);
       console.log('Response Data:', response.data);
-    } catch (error) {
+    } catch (error) { 
       throw error;
     }
   });
