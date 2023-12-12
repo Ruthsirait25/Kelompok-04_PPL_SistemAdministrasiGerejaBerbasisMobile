@@ -42,7 +42,7 @@ Route::get('/pelayanGereja', [PelayanController::class, 'viewAllPelayan']);
 Route::get('/deletePelayanGereja/{id}', [PelayanController::class, 'deletePelayan']);
 Route::get('pelayanGereja/{id}', [PelayanController::class, 'viewPelayanById']);
 Route::post('/storePelayanGereja', [PelayanController::class, 'addPelayan']);
-Route::put('/updatePelayanGereja', [PelayanController::class, 'updatePelayan']);
+Route::put('/updatePelayanGereja/{id}', [PelayanController::class, 'updatePelayan']);
 
 Route::get('/kegiatan', [KegiatanController::class, 'viewAllKegiatan']);
 Route::get('/kegiatan/{id}', [KegiatanController::class, 'viewKegiatanById']);
